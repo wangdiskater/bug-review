@@ -1,0 +1,13 @@
+server:
+  port: 8081
+dubbo:
+  application:
+    name: dubbo-provider # 声明服务提供者名称
+  protocol:
+    name: dubbo          # 使用 Dubbo 协议
+    port: 20880          # 服务暴露端口
+    id: dubbo
+  scan:
+    base-packages: com.example
+  registry:
+    address: N/A # 明确表示不使用注册中心

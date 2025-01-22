@@ -1,0 +1,16 @@
+server:
+  port: 8099
+
+hsm:
+  url: hsm://192.168.14.169:1818
+  loadblance: leastactive
+logging:
+  level:
+    org:
+      apache:
+        dubbo: DEBUG
+dubbo:
+  application:
+    name: my-application
+  protocol:
+    name: hsm
