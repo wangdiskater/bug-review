@@ -1,0 +1,8 @@
+server:
+  port: 20881
+
+dubbo:
+  application:
+    name: dubbo-consumer
+#  registry:
+#    address: nacos://127.0.0.1:8848

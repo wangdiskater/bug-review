@@ -3,3 +3,9 @@ server:
 dubbo:
   application:
     name: dubbo-consumer
+
+logging:
+  level:
+    com:
+      alibaba:
+        dubbo: DEBUG
